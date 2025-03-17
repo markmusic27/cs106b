@@ -3,7 +3,7 @@
   <p align="center">
   ✶ Stanford CS 106B Assignments & Notes ✶
     <br />
-    <a href="https://github.com/yourusername/cs106b/archive/refs/heads/main.zip">Download content »</a>
+    <a href="https://github.com/markmusic27/cs106b/archive/refs/heads/main.zip">Download content »</a>
     <br />
   </p>
 </p>
