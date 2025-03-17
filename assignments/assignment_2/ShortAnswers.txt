@@ -1,0 +1,53 @@
+Q1:
+Example 1: Romeo and Juliet
+Most highschool students will understand how difficult it can be to get through of Shakespear's writing.
+Words like thee, thou, and thine are rarely ever used in modern english.
+
+William Shakespeare. 1597. Romeo and Juliet. Thomas Creede, London.
+
+Example 2: The verse "The light refracts sequin stars off her silhouette every night." - "I Can Do it With a Broken Heart" by Taylor Swift
+
+The use and relative frequency of uncommon words like refracts, sequin, and silhouette may
+successfully confuse the language identification algorithm.
+
+Taylor Swift. 2024. I Can Do It with a Broken Heart. Republic Records.
+
+Q2:
+
+The app would most certainly do a bad job of translating a broad spectrum of text. Wikipedia's
+writing style is almost entirely eloquent and put together. Therefore, text that does not conform to this style,
+such as slang or communal talk, will not adequately translate.
+
+One could easily see an individual potentially being harmed as a product of miscommunication from the translation app.
+It is critical to keep in mind that mere Wikipedia data may not compensate for the lack of knowledge on the semantic
+and social meaning of words and phrases. For instance, sarcasm simply does not translate.
+
+Q3:
+
+The obvious benefit to limiting the data input that your program uses is not needing to gather and subsequently treat the data to avoid for bias.
+Perhaps another benefit is the fact that since less data is used, the privacy concerns of where this data comes from hold less of a weight. This also may make
+the system more transparent since there is no need to understand vast swaths of data to predict or excuse the behavior of these models. LLMs and other machine learning
+models that are heavily reliant on vast datasets are often described as "black boxes" that cannot be understood. The less datam you feed into the model, the less room for
+unpredictability there will be.
+
+
+
+Q4:
+
+One of the most interesting trends that several AI researchers debate is the correlation between dataset size and model performance. Among the most prominent
+discoveries that the GPT-series models from OpenAI showed was that just by increasing the dataset you train the model with by several orders of magnitude, you can
+obtain significantly better performance. On a more ethical note, the implementation of more data makes the algorithm less naive in a way since it has more
+context from which to act. Now, it is arguably impossible to obtain data with no bias. However, I believe a more interesting question to ask is: can we build models
+that are aware of their bias and limitations, and act accordingly?
+
+Q5:
+
+I don't believe I know enough about the subject to make an educated decision on the matter. From this thought experiment, however, I would say that
+more data is generally a good thing. In a perfect world, these models have all of the context necessary to circumvent the limited datasets that give rise to
+bias and leanings. This, for now at least, seems to be borderline impossible. Hence, we can just hope to, once again, build a system that is aware of its limitations
+and can understand when to and when not to act or respond in a certain way.
+
+
+
+
+

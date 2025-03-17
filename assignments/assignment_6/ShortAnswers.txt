@@ -1,0 +1,61 @@
+Q1:
+
+.,31,41,53,93,.,.,97,58,59
+
+or separated with tabs
+
+.   31  41  53  93  .   26   97  58  59
+
+
+Q2:
+
+The load factor equals the number of elememts over the number of buckets (n/b).
+
+a = 8/10 = 0.8. Since a < 1, then the time complexity of this algorithm is O(1)
+
+
+
+Q3:
+You can change the order of the elements in the hash table by changing the order in which they were inserted.
+If you insert 41 before 31, 31 will be forced to fill the third slot with index 2. Similarly, inserting 93 before
+53 would cause 53 to take the next slot with index 4. This would result in the following order:
+
+.   41  31  93  53  .   26   97  58  59
+
+
+
+Q4:
+
+To check if the number 72 exists in the hash table, you would hash 72 giving you 2. Then you would check the third slot
+corresponding to hashTable[2] and walk forward until you either find 72 or find a blank space. If you find a blank space, the item
+does not exist in the hash table. If you find 72, then the element is in the table!
+
+Hence, you have to check slot 3 (index 2), slot 4 (index 3), and slot 5 (index 4). Since slot 5 is empty, the search can end and you can
+conclude that 72 is not in the hash table.
+
+
+
+Q5:
+
+Similarly to before, you must start at slot 8 (index 7), and continue until you either find 137 or a blank space.
+
+You would visit... slot 8 (index 7) -> slot 9 (index 8) -> slot 10 (index 9) and slot 1 (index 0). Since slot 1 is empty, the search ends there
+and you can conclude that 137 is not in the hash table.
+
+
+
+Q6:
+
+.   31  T   T   93  .   26   97  58  59
+
+
+Q7:
+
+106     31      107     110     93      .       26      97      58      59
+
+
+
+
+
+
+

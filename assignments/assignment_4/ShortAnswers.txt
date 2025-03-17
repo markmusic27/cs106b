@@ -1,0 +1,65 @@
+Shift Scheduling Q1:
+
+A simple case where two shifts would be algorithmically equivalent but have significant impacts on the worker would be the case when two shifts,
+like Mon 8am-12pm and Mon 4pm-8pm, leaving a three hour window to eat, perhaps run errands, etc... and the shift Mon 8am-4pm where the worker would
+have to work through lunch and other meals, reducing the quality of work. Younger workers with no families may be inclined to work till later and take
+night shifts if they were offered. Older workers with families hay have family responsabiliies such as picking their children from school or cooking them
+dinner. To mitigate the costs of a custom shift schedule, the worker would likely have to take on more time to afford alternatives like a nanny or extended
+daycare for their children.
+
+
+
+Shift Scheduling Q2:
+
+It's critical to consider that humans are not automated machines working at peak efficiency 24/7. Optimizing for profit can result in worker burnout,
+reducing efficiency gains, and hurting a company's bottom line. Furthermore, one could also make the argument that grueling schedules with no bathroom
+breaks results in bad press for the company as it demonstrates their priorities do not lie with their workers and instead with their bottom line. This was
+the case of Amazon several years back. Since then, businessman and consultant John Elkington devised the concept of the Triple Bottom Line, which prioritizes
+worker conditions by making an organizations' stakeholders (including its employees) just as important as profits. This notion, if implemented properly,
+can promote employee satisfaction through meaningful work that imbues purpose in its employees.
+
+Note: I took two years of Business Management in highschool where the concept of employee motivation was a central unit. I would
+love to expand more on the psycological factors that can promote employee satisfaction such as
+Maslow's Higherarchy of Needs and whatnot but will not to keep this concise.
+
+
+
+Shift Scheduling Q3:
+
+The most immediate thing that comes to mind is the notion of worker preference in shift scheduling. Similar to how students in CS 106B are given preference to
+what time their section should be, the workers can be asked a series of questions where they rank schedules. In turn, the algorithm can factor in
+what the employees would prefer beyond just profits. Broadly, I believe algorithms like these should be programmed to promote meritocracy and reward
+the hardest working employees while making opportunities equitable for the entire employee pool. In this way, workers can select shifts that either have
+longer hours or require more skilled labor and resultantly get paid a higher wage.
+
+
+
+Shift Scheduling Q4:
+
+Hey Harvey (Suits reference),
+
+I'm writing to with concerns regarding the optimization algorithm that Pearson Hardman recently incorporated to maximize shift schedules. While optimizing for efficiency
+and profit is important, I believe there are significant ethical and practical issues that we need to address before this system becomes the new standard.
+
+The primary issue arrises from the unpredictability of worker schedules. Part-time workers often have other responsabiliies such as being college students or
+taking care of family members. This makes our workers' schedules unsustainable in the long run as they cannot plan ahead for when they will need to work.
+
+Similarly, these algorithms and their consequent effect on worker conditions reflect badly on our company's brand--a phenomenon that has led consumers to
+boycot certain products or services. At a basic human level, I believe it is in the company's interest to have motivated and content workers who find
+joy and fulfillment from their jobs. This ultimately results in higher efficiency gains since workers make a concerted effort to provide better than
+adequate services.
+
+The best part about this all is that these issues can be easily mitigated. The most immediate change that can be made is to provide workers with certain time
+slots where they may or may not be scheduled a shift but could very well be. We can then add another component to the algorithm that generates these time slots.
+I know this sounds a bit redundant, but this could drastically help workers plan their weeks consistantly regardless of what the algorithm dictates as their
+shifts for the week. Similarly, we can also implement a ranking form where employees list their shift schedule preference based on their lives, which the algorithm can
+then incorporate into its shift generation process.
+
+Finally, we must realize that an algorithm will rarely acommodate everyone's needs; people will always fall within the cracks of a preestablished deterministic
+system. Hence, we should also establish an human-led appeals system where workers can make a case for why their schedule should be changed. This adds
+humanity to the process and prioritizes workers' needs.
+
+Best regards,
+Mark
+
+

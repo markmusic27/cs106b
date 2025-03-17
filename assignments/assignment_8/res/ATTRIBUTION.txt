@@ -1,0 +1,11 @@
+US county populations data made by processing data from the Census Bureau: https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html. They suggest the following citation:
+
+    Annual Estimates of the Resident Population for Counties in the United States: April 1, 2020 to July 1, 2023 (CO-EST2023-POP)
+    Source: U.S. Census Bureau, Population Division
+    Release Date: March 2024
+
+US federal spending data made by processing data from USASpending.gov (https://www.usaspending.gov/download_center/custom_account_data).
+
+CS degree counts obtained from Danielle Gaspar (BS), Meredith Hutchin (MS), and the university-published commencement brochure for 2024 (PhD).
+
+2020 Olympic medal counts taken from Wikipedia.

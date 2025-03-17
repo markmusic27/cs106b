@@ -1,0 +1,40 @@
+Q1:
+
+As the load factor increases, the number of slots available increases. This reduces the odds of hash
+collisions on which linear probing depends upon. Hence, the chains of displaced words reduces as a function
+of the amount of slots available in the hash. This subsequently makes the lookup (either successful or unsuccessful) and deletions
+much faster!
+
+
+Q2:
+
+The lookup success seems to have a smaller average rate of change than lookup failure. This can be seen by the initial
+success and failure lookups as the load factor increases.
+
+
+Q3:
+
+The issue with unsuccessful deletion and lookups stems from the fact that to ensure that an item is not in a hashmap, it must walk over elements
+and tombstones starting at the index of the hash of the item in mind and then continue until it finds a blank space. This indicates that the item
+is not in the hash map. In direct contrast, the successful deletions and lookups find the item faster since they stop when they find the item instead of the
+blank space. This makes them generally faster than unsuccessful ones.
+
+
+
+Q4:
+
+A load factor of 0.01 would mean allocating memory for 100x the amount of data that one intends to store with the hash map. For instance,
+this would mean requiring 1000 slots each item you want to store. This might work for a small dataset that requires quick operations, but is
+unreasonable at scale.
+
+
+Q5:
+
+In application, I believe the best hash table on could use is a linear probing table with a load factor of 0.8. This would result in storing 1.25 slots for each item in your
+hash map. This seems like a reasonable compromise between efficiency and memory required for the hash map to function. I would pick
+robinhood hashing over linear probing however, since the efficiency gains seem to be more significant. It also seems to me like the efficiency of linear probing with respect to
+its load factor is non-linear since the delta in lookups from a=0.5 to a=0.8 is merely 0.13ns whereas the delta from 0.8 to 0.9 is 0.45ns (3.5x the increase in time taken from
+the increase from a=0.5 to a=0.8).
+
+
+

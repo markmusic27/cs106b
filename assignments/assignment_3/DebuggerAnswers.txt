@@ -1,0 +1,22 @@
+Q1:
+The parent function that calls drawFlagOfRecursia() is doTheThing()
+and is defined in the file FlagGUI.cpp under the Demos folder.
+
+
+
+Q2:
+
+The drawFlagOfRecursia() function drew 6765 triangles.
+
+
+Q3:
+
+Each recursive function call of drawAccuteTriangles results in the addition of two triangles
+seen in line 45 by the addition of triangles drawn. Hence, knowing that when order=0 (end of recursive stack),
+the triangles drawn is zero. The number of triangles drawn would be 2^6=64.
+
+
+
+
+
+
